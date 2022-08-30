@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+    <div class="container">
+
+        <div class="template">
+            <div class="main">
+                <div class="upper-part" id="top">
+
+                    <div class="header">
+                        <h2>Tax Invoice</h2>
+                        <div class="invoice-type">
+                            <h5>Original For Recipient</h5>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+                    <header>
+                        <div class="header-left">
+                            <div class="logo-area">
+                                <img src="images/logo.JPG">
+                            </div>
+                            <div class="comp-info">
+                                <h2>WAYINFOTECH SOLUTIONS</h2>
+                                <p>137/13, Gali Number 4, A-2 Block, West
+                                    Sant Nagar,Delhi<br>Delhi <span>(110084)</span></p>
+                                <p>Phone: 1127612109</p>
+                                <p>E-mail: atish@wayinfotechsolutions.com</p>
+                                <p>GST NO:<span>07AIKPR7560G2ZT</span></p>
+                                <p>PAN NO:AIKPR7560G</p>
+                            </div>
+                        </div>
+                        <div class="header-right">
+                            <div class="headings">
+                                <div class="invoice-no-col rows">
+                                    <p>Invoice No</p>
+                                    <span>WS/22-23/001548</span>
+                                </div>
+                                <div class="invoice-date-col rows">
+                                    <p>Invoice Date</p>
+                                    <span>04/08/2022</span>
+                                </div>
+                                <div class="created-by-col rows">
+                                    <p>Created By</p>
+                                    <span>superadmin@w
+                                        ayinfotech.com</span>
+                                </div>
+                            </div>
+                            <div class="table-main">
+                                <div class="table-left">
+                                    <div class="data">
+                                        <p>Supplier's Ref./Order No.</p>
+                                    </div>
+                                    <div class="data">
+                                        <p>Other References</p>
+                                    </div>
+                                    <div class="data">
+                                        <p>PO Date</p>
+                                    </div>
+                                    <div class="data">
+                                        <p>Dispatch Through</p>
+                                    </div>
+                                    <div class="data">
+                                        <p>Terms Of Payment</p>
+                                    </div>
+                                </div>
+                                <div class="table-right">
+                                    <div class="data">
+
+                                    </div>
+                                    <div class="data">
+
+                                    </div>
+                                    <div class="data">
+
+                                    </div>
+                                    <div class="data">
+                                        <p><span>By Surface</span></p>
+                                    </div>
+                                    <div class="data">
+                                        <p><span>Advance</span></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </header>
+
+
+
+
+
+                    <div class="address-section">
+                        <div class="type-top">
+                            <div class="type-left types">
+                                <p><span>Billing Address</span></p>
+                            </div>
+                            <div class="type-right types">
+                                <p><span>Shipping Address</span></p>
+                            </div>
+                        </div>
+                        <div class="type-top address-lines">
+                            <div class="address-left types">
+                                <p><span>BALAJI CREATION(kolkata)</span></p>
+                                <p>79B, Pathuria Gaht St, Kol-06</p>
+                            </div>
+                            <div class="address-right types">
+                                <p><span>BALAJI CREATION(kolkata)</span></p>
+                                <p>79B, Pathuria Gaht St, Kol-06</p>
+                            </div>
+                        </div>
+
+                        <div class="type-top">
+                            <div class="type-left type">
+                                <div class="gstin">
+                                    <p><span>GSTN No : </span>19AQWPK6149C1ZD</p>
+                                </div>
+                                <div class="pan">
+                                    <p><span>PAN No : </span></p>
+                                </div>
+                            </div>
+                            <div class="type-right type">
+                                <div class="gstin">
+                                    <p><span>GSTN No : </span></p>
+                                </div>
+                                <div class="pan">
+                                    <p><span>PAN No : </span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="contents-section">
+                        <div class="contents-nav">
+                            <div class="srno-part part">
+                                <p><span>S.No</span></p>
+                            </div>
+                            <div class="desc-part part">
+                                <p><span>Item Description</span></p>
+                            </div>
+                            <div class="code-part part">
+                                <p><span>HSN/SAC Code</span></p>
+                            </div>
+                            <div class="qty-part part">
+                                <p><span>Qty</span></p>
+                            </div>
+                            <div class="price-part part">
+                                <p><span>Price</span></p>
+                            </div>
+                            <div class="total-part part">
+                                <p><span>Total Amount</span></p>
+                            </div>
+                            <div class="gst-part part">
+                                <p><span>GST %</span></p>
+                            </div>
+                            <div class="gst-amt-part part">
+                                <p><span>GST Amount</span></p>
+                            </div>
+                            <div class="amount-part part">
+                                <p><span>Amount</span></p>
+                            </div>
+                        </div>
+                        <div class="invoice-contents-area" id="contents">
+                            <div class="contents-nav">
+                                <div class="srno-part part">
+                                    <p id="srNo">1</p>
+                                </div>
+                                <div class="desc-part part">
+                                    <p>HONEYWELL 1470G-2D-USB-BARCODE SCANNER</p>
+                                </div>
+                                <div class="code-part part">
+                                    <p>84716050</p>
+                                </div>
+                                <div class="qty-part part">
+                                    <p>1.00</p>
+                                </div>
+                                <div class="price-part part">
+                                    <p>4800.000</p>
+                                </div>
+                                <div class="total-part part">
+                                    <p>4800.000</p>
+                                </div>
+                                <div class="gst-part part">
+                                    <p>18.00</p>
+                                </div>
+                                <div class="gst-amt-part part">
+                                    <p>864.00</p>
+                                </div>
+                                <div class="amount-part part">
+                                    <p>5664.00</p>
+                                </div>
+                            </div>
+                            <div class="contents-nav">
+                                <div class="srno-part part">
+                                    <p id="srNo">2</p>
+                                </div>
+                                <div class="desc-part part">
+                                    <p>HONEYWELL 1470G-2D-USB-BARCODE SCANNER</p>
+                                </div>
+                                <div class="code-part part">
+                                    <p>84716050</p>
+                                </div>
+                                <div class="qty-part part">
+                                    <p>1.00</p>
+                                </div>
+                                <div class="price-part part">
+                                    <p>4800.000</p>
+                                </div>
+                                <div class="total-part part">
+                                    <p>4800.000</p>
+                                </div>
+                                <div class="gst-part part">
+                                    <p>18.00</p>
+                                </div>
+                                <div class="gst-amt-part part">
+                                    <p>864.00</p>
+                                </div>
+                                <div class="amount-part part">
+                                    <p>5664.00</p>
+                                </div>
+                            </div>
+                            <div class="contents-nav">
+                                <div class="srno-part part">
+                                    <p id="srNo">3</p>
+                                </div>
+                                <div class="desc-part part">
+                                    <p>HONEYWELL 1470G-2D-USB-BARCODE SCANNER</p>
+                                </div>
+                                <div class="code-part part">
+                                    <p>84716050</p>
+                                </div>
+                                <div class="qty-part part">
+                                    <p>1.00</p>
+                                </div>
+                                <div class="price-part part">
+                                    <p>4800.000</p>
+                                </div>
+                                <div class="total-part part">
+                                    <p>4800.000</p>
+                                </div>
+                                <div class="gst-part part">
+                                    <p>18.00</p>
+                                </div>
+                                <div class="gst-amt-part part">
+                                    <p>864.00</p>
+                                </div>
+                                <div class="amount-part part">
+                                    <p>5664.00</p>
+                                </div>
+                            </div>
+                            <div class="contents-nav">
+                                <div class="srno-part part">
+                                    <p id="srno">4</p>
+                                </div>
+                                <div class="desc-part part">
+                                    <p>HONEYWELL 1470G-2D-USB-BARCODE SCANNER</p>
+                                </div>
+                                <div class="code-part part">
+                                    <p>84716050</p>
+                                </div>
+                                <div class="qty-part part">
+                                    <p>1.00</p>
+                                </div>
+                                <div class="price-part part">
+                                    <p>4800.000</p>
+                                </div>
+                                <div class="total-part part">
+                                    <p>4800.000</p>
+                                </div>
+                                <div class="gst-part part">
+                                    <p>18.00</p>
+                                </div>
+                                <div class="gst-amt-part part">
+                                    <p>864.00</p>
+                                </div>
+                                <div class="amount-part part">
+                                    <p>5664.00</p>
+                                </div>
+                            </div>
+                            <div class="contents-nav">
+                                <div class="srno-part part">
+                                    <p id="srNo">5</p>
+                                </div>
+                                <div class="desc-part part">
+                                    <p>HONEYWELL 1470G-2D-USB-BARCODE SCANNER</p>
+                                </div>
+                                <div class="code-part part">
+                                    <p>84716050</p>
+                                </div>
+                                <div class="qty-part part">
+                                    <p>1.00</p>
+                                </div>
+                                <div class="price-part part">
+                                    <p>4800.000</p>
+                                </div>
+                                <div class="total-part part">
+                                    <p>4800.000</p>
+                                </div>
+                                <div class="gst-part part">
+                                    <p>18.00</p>
+                                </div>
+                                <div class="gst-amt-part part">
+                                    <p>864.00</p>
+                                </div>
+                                <div class="amount-part part">
+                                    <p>5664.00</p>
+                                </div>
+                            </div>
+                            <div class="contents-nav">
+                                <div class="srno-part part">
+                                    <p id="srNo">6</p>
+                                </div>
+                                <div class="desc-part part">
+                                    <p>HONEYWELL 1470G-2D-USB-BARCODE SCANNER</p>
+                                </div>
+                                <div class="code-part part">
+                                    <p>84716050</p>
+                                </div>
+                                <div class="qty-part part">
+                                    <p>1.00</p>
+                                </div>
+                                <div class="price-part part">
+                                    <p>4800.000</p>
+                                </div>
+                                <div class="total-part part">
+                                    <p>4800.000</p>
+                                </div>
+                                <div class="gst-part part">
+                                    <p>18.00</p>
+                                </div>
+                                <div class="gst-amt-part part">
+                                    <p>864.00</p>
+                                </div>
+                                <div class="amount-part part">
+                                    <p>5664.00</p>
+                                </div>
+                            </div>
+                            <div class="contents-nav">
+                                <div class="srno-part part">
+                                    <p id="srNo">7</p>
+                                </div>
+                                <div class="desc-part part">
+                                    <p>HONEYWELL 1470G-2D-USB-BARCODE SCANNER</p>
+                                </div>
+                                <div class="code-part part">
+                                    <p>84716050</p>
+                                </div>
+                                <div class="qty-part part">
+                                    <p>1.00</p>
+                                </div>
+                                <div class="price-part part">
+                                    <p>4800.000</p>
+                                </div>
+                                <div class="total-part part">
+                                    <p>4800.000</p>
+                                </div>
+                                <div class="gst-part part">
+                                    <p>18.00</p>
+                                </div>
+                                <div class="gst-amt-part part">
+                                    <p>864.00</p>
+                                </div>
+                                <div class="amount-part part">
+                                    <p>5664.00</p>
+                                </div>
+                            </div>
+                            <div class="contents-nav">
+                                <div class="srno-part part">
+                                    <p id="srNo">8</p>
+                                </div>
+                                <div class="desc-part part">
+                                    <p>HONEYWELL 1470G-2D-USB-BARCODE SCANNER</p>
+                                </div>
+                                <div class="code-part part">
+                                    <p>84716050</p>
+                                </div>
+                                <div class="qty-part part">
+                                    <p>1.00</p>
+                                </div>
+                                <div class="price-part part">
+                                    <p>4800.000</p>
+                                </div>
+                                <div class="total-part part">
+                                    <p>4800.000</p>
+                                </div>
+                                <div class="gst-part part">
+                                    <p>18.00</p>
+                                </div>
+                                <div class="gst-amt-part part">
+                                    <p>864.00</p>
+                                </div>
+                                <div class="amount-part part">
+                                    <p>5664.00</p>
+                                </div>
+                            </div>
+                            <div class="contents-nav">
+                                <div class="srno-part part">
+                                    <p id="srNo">9</p>
+                                </div>
+                                <div class="desc-part part">
+                                    <p>HONEYWELL 1470G-2D-USB-BARCODE SCANNER</p>
+                                </div>
+                                <div class="code-part part">
+                                    <p>84716050</p>
+                                </div>
+                                <div class="qty-part part">
+                                    <p>1.00</p>
+                                </div>
+                                <div class="price-part part">
+                                    <p>4800.000</p>
+                                </div>
+                                <div class="total-part part">
+                                    <p>4800.000</p>
+                                </div>
+                                <div class="gst-part part">
+                                    <p>18.00</p>
+                                </div>
+                                <div class="gst-amt-part part">
+                                    <p>864.00</p>
+                                </div>
+                                <div class="amount-part part">
+                                    <p>5664.00</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="bottom-part" id="bottom">
+                    <div class="bottom-nav">
+                        <div class="srno-part parts">
+
+                        </div>
+                        <div class="desc-part parts">
+
+                        </div>
+                        <div class="code-part parts">
+
+                        </div>
+                        <div class="qty-part parts">
+                            <p><span>1.00</span></p>
+                        </div>
+                        <div class="price-part parts">
+
+                        </div>
+                        <div class="total-part parts">
+                            <p><span>4800.000</span></p>
+                        </div>
+                        <div class="gst-part parts">
+
+                        </div>
+                        <div class="gst-amt-part parts">
+                            <p><span>864.00</span></p>
+                        </div>
+                        <div class="amount-part parts">
+                            <p><span>5664.00</span></p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="other-details-area">
+                        <div class="details-left">
+                            <div class="remarks-area">
+                                <p><span>Remarks : </span></p>
+                                <p><span>Payable Amt. in words : </span>Rs.Five Thousand Six
+                                    Hundred and Sixty Four</p>
+                                <div class="calculations">
+                                    <div class="calculations-left">
+                                        <div class="calc-box">
+                                            <p><span>IGST %</span></p>
+                                        </div>
+                                        <div class="calc-box">18%</div>
+                                        <div class="calc-box"></div>
+                                    </div>
+                                    <div class="calculations-right">
+                                        <div class="calc-box">
+                                            <p><span>IGST AMT</span></p>
+                                        </div>
+                                        <div class="calc-box">864.00</div>
+                                        <div class="calc-box"><span>864.00</span></div>
+                                    </div>
+                                </div>
+                                <div class="remarks-last">
+                                    <p>Received the above mention Material as per order in
+                                        good Condition.</p>
+                                </div>
+                            </div>
+                            <div class="barcode-area">
+                                <div class="barcode-image">
+                                    <img src="images/barcode.JPG">
+                                </div>
+                                <span>WS/22-23/001548</span>
+                            </div>
+                        </div>
+                        <div class="details-right">
+                            <!-- <div class="output-amts">
+                            <div class="output-decs">
+
+                            </div>
+                            <div class="output-amt-nums">
+                                
+                            </div>
+                        </div> -->
+
+
+                            <div class="output-amts">
+                                <div class="output-decs">
+                                    <p><span>Net Amount :</span></p>
+                                </div>
+                                <div class="output-amt-nums">
+                                    <p><span>4800.00</span></p>
+                                </div>
+                            </div>
+                            <div class="output-amts">
+                                <div class="output-decs">
+                                    <p><span>Discount :</span></p>
+                                </div>
+                                <div class="output-amt-nums">
+                                    <p><span>0.00</span></p>
+                                </div>
+                            </div>
+                            <div class="output-amts">
+                                <div class="output-decs">
+                                    <p><span>Freight :</span></p>
+                                </div>
+                                <div class="output-amt-nums">
+                                    <p><span>0.00</span></p>
+                                </div>
+                            </div>
+                            <div class="output-amts">
+                                <div class="output-decs">
+                                    <p><span>GST :</span></p>
+                                </div>
+                                <div class="output-amt-nums">
+                                    <p><span>864.00</span></p>
+                                </div>
+                            </div>
+                            <div class="output-amts">
+                                <div class="output-decs">
+                                    <p><span>Extra Charge :</span></p>
+                                </div>
+                                <div class="output-amt-nums">
+                                    <p><span>0.00</span></p>
+                                </div>
+                            </div>
+                            <div class="output-amts">
+                                <div class="output-decs">
+                                    <p><span>Insurance Charges :</span></p>
+                                </div>
+                                <div class="output-amt-nums">
+                                    <p><span>0.00</span></p>
+                                </div>
+                            </div>
+                            <div class="output-amts">
+                                <div class="output-decs">
+                                    <p><span>TDS :</span></p>
+                                </div>
+                                <div class="output-amt-nums">
+                                    <p><span>0.00</span></p>
+                                </div>
+                            </div>
+                            <div class="output-amts">
+                                <div class="output-decs">
+                                    <p><span>Round Off :</span></p>
+                                </div>
+                                <div class="output-amt-nums">
+                                    <p><span>0.00</span></p>
+                                </div>
+                            </div>
+                            <div class="output-amts">
+                                <div class="output-decs">
+                                    <p><span>Bill Amount :</span></p>
+                                </div>
+                                <div class="output-amt-nums">
+                                    <p><span>5664.00</span></p>
+                                </div>
+                            </div>
+                            <div class="output-amts">
+                                <div class="output-decs">
+                                    <p><span>Advance :</span></p>
+                                </div>
+                                <div class="output-amt-nums">
+                                    <p><span>0.00</span></p>
+                                </div>
+                            </div>
+                            <div class="output-amts">
+                                <div class="output-decs">
+                                    <p><span>Payable Amount :</span></p>
+                                </div>
+                                <div class="output-amt-nums">
+                                    <p><span>5664.00</span></p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+                    <footer>
+
+                        <div class="footer-tnc footer">
+                            <span>Terms and conditions :</span><br>
+                            <ol>
+                                <li>Payment of this will become due immediately,otherwise
+                                    interest@18%P.A.will be charged.
+                                </li>
+                                <li>
+                                    Wayinfotech Solutions is not responsible for any loss or damage of
+                                    goods in transit.
+                                </li>
+                                <li>
+                                    Goods once Sold will not be taken back.
+                                </li>
+                                <li>
+                                    Three Month Warranty on Printer Head against Manufacturing defects.
+                                </li>
+                                <li>
+                                    Warranty as per OEM
+                                </li>
+                                <li>
+                                    All Disputes are subject to delhi jurisdiction only.
+                                </li>
+                            </ol>
+                        </div>
+                        <div class="footer-bank footer">
+                            <p><span>Bank Details :</span></p>
+                            <p><span>Company Name : Wayinfotech Solutions</span></p>
+                            <p>Account No : <span>14392020000848</span></p>
+                            <p>Bank Name : HDFC BANK</p>
+                            <p>IFSC CODE : HDFC0003830</p>
+                            <p>Branch Name : BURARI</p>
+                            <p></p>
+                            <p>Account No :<span>401405500189</span></p>
+                            <p>Bank Name : ICICI BANK</p>
+                            <p>IFSC CODE : ICIC0004014</p>
+                            <p>Branch Name : BURARI</p>
+
+                        </div>
+                        <div class="footer-sign footer">
+                            <h3>For Wayinfotech Solutions</h3>
+                            <div class="sign-area">
+
+                            </div>
+                            <p>Authorized Signatory</p>
+                        </div>
+                    </footer>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!-- <script src="file.js"></script> -->
+</body>
+
+</html>
